@@ -1,0 +1,26 @@
+h1 {
+  font-weight: bold;
+}
+
+p {
+  font-family: 'Vulf-sans', sans-serif;
+}
+
+.project-card {
+  margin-top: 10vh;
+  max-width: 80vh;
+}
+
+.project-card img {
+  padding: 8px;
+}
+
+.ant-card-body {
+  display: flex;
+  flex-direction: column;
+}
+
+.project-container a {
+  font-weight: bold;
+  padding: 4px;
+}

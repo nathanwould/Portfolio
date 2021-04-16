@@ -1,0 +1,16 @@
+.form {
+  align-items: center;
+  justify-content: center;
+  width: 40vh;
+  font-family: 'Vulf-sans';
+  margin-top: 10vh;
+  margin-bottom: 10vh;
+}
+
+.ant-form-item-label {
+  font-weight: bold;
+}
+
+.ant-input {
+  font-size: 12px;
+}

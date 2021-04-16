@@ -47,7 +47,7 @@ function App() {
           </Menu>
         </Header>
         <Content className='site-layout-content'>
-          <Route exact path='/'>Howdy</Route>
+          <Route exact path='/'></Route>
           <Route path='/about'><AboutMe /></Route>
           <Route path='/projects'><Projects /></Route>
           <Route path='/contact'><Contact /></Route>

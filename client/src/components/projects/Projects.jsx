@@ -1,5 +1,6 @@
 import "./Projects.css";
-import { Space, Card, Typography } from "antd"
+import { Space, Card, Typography } from "antd";
+import { DownOutlined } from '@ant-design/icons';
 
 export default function Projects() {
   const { Link } = Typography;

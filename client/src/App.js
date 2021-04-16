@@ -4,7 +4,8 @@ import { Route } from 'react-router-dom';
 import { Layout, Menu } from 'antd';
 import 'antd/dist/antd.css';
 import Projects from './components/projects/Projects.jsx';
-import Contact from './components/contact/Contact.jsx'
+import AboutMe from './components/aboutMe/AboutMe.jsx';
+import Contact from './components/contact/Contact.jsx';
 
 function App() {
   const { Header, Content, Footer } = Layout;
@@ -47,7 +48,7 @@ function App() {
         </Header>
         <Content className='site-layout-content'>
           <Route exact path='/'>Howdy</Route>
-          <Route path='/about'>Here's some info about me</Route>
+          <Route path='/about'><AboutMe /></Route>
           <Route path='/projects'><Projects /></Route>
           <Route path='/contact'><Contact /></Route>
         </Content>

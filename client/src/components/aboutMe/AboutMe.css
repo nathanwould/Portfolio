@@ -1,0 +1,24 @@
+.about-me {
+  margin: 10vh;
+}
+
+.paragraph {
+  margin: 5vh;
+  font-size: 14px;
+  font-family: "Vulf-sans"
+}
+
+.ant-typography h1 {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 10vh;
+  font-family: 'Vulf-Mono'
+}
+
+.anticon {
+  margin-top: 4vh;
+}
+
+.fonk {
+  margin-left: 0;
+}

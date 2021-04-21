@@ -1,5 +1,5 @@
 import { Typography } from 'antd';
-import {LineOutlined} from '@ant-design/icons'
+// import {LineOutlined} from '@ant-design/icons'
 import './AboutMe.css';
 
 export default function AboutMe() {

@@ -5,7 +5,7 @@ export default function Projects() {
   const { Link } = Typography;
 
   return (
-    <Space className="projects-container" direction="vertical">
+    <Space id='projects' className="projects-container" direction="vertical">
       <div className="project-card">
         <h1>PokeSynth</h1>
         <Card

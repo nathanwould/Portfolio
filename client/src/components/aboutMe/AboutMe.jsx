@@ -6,7 +6,7 @@ export default function AboutMe() {
   
   const { Title, Paragraph, Link } = Typography;
   return (
-    <Typography className='about-me'>
+    <Typography id='about-me' class='about-me'>
       <Title>Hi, I'm Nathan</Title>
       <Paragraph className='paragraph'>I'm a trombonist turned full-stack web developer whose goal is to take his unique experience gained from time working in the arts, food industry, and as a nonprofit administrator to solve real-world problems for users with code. </Paragraph>
       <LineOutlined />

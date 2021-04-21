@@ -13,6 +13,7 @@ export default function Contact() {
       name="basic"
       layout='vertical'
       className='form'
+      id='contact'
     >
       <Form.Item
         name='name'

@@ -25,3 +25,8 @@
 .nav-link {
   align-items: flex-end;
 }
+
+.site-layout-content {
+  flex-direction: column;
+  align-items: center;
+}

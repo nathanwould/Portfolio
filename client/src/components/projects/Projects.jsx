@@ -14,7 +14,7 @@ export default function Projects() {
           cover={<img alt='PokeSynth' src='https://i.imgur.com/LGHB23Ol.png' />}
         >
           <p>A digital synthesizer built in vanilla javascript. Choose a pokemon to dance along while you play!</p>
-          <Link href='https://nathanwould.github.io/Funkemon/' target="_blank">Get Funky</Link>
+          <Link href='https://nathanwould.github.io/Funkemon/' target="_blank">Visit App</Link>
           <Link href='https://github.com/nathanwould/Funkemon' target="_blank">View on GitHub</Link>
         </Card>
       </div>

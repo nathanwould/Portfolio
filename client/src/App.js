@@ -1,6 +1,5 @@
 import './App.css';
 import { useState } from 'react';
-import { Route } from 'react-router-dom';
 import { Layout, Menu } from 'antd';
 import 'antd/dist/antd.css';
 import Projects from './components/projects/Projects.jsx';
@@ -33,24 +32,23 @@ function App() {
               className='logo'
             ><a href='/'>Nathan Wood</a></Menu.Item>
             <Menu.Item
-              key='projects'
-              className='nav-link'
-            ><a href='/projects'>Projects</a></Menu.Item>
-            <Menu.Item
               key='about'
               className='nav-link'
-            ><a href='/about'>About Me</a></Menu.Item>
+            ><a href='#about-me'>About Me</a></Menu.Item>
+            <Menu.Item
+              key='projects'
+              className='nav-link'
+            ><a href='#projects'>Projects</a></Menu.Item>
             <Menu.Item
               key='contact'
               className='nav-link'
-            ><a href='/contact'>Contact</a></Menu.Item>
+            ><a href='#contact'>Contact</a></Menu.Item>
           </Menu>
         </Header>
         <Content className='site-layout-content'>
-          <Route exact path='/'></Route>
-          <Route path='/about'><AboutMe /></Route>
-          <Route path='/projects'><Projects /></Route>
-          <Route path='/contact'><Contact /></Route>
+          <AboutMe id='about-me'/>
+          <Projects id='projects'/>
+          <Contact id='contact'/>
         </Content>
         <Footer>Nathan Wood ©2021</Footer>
       </Layout>

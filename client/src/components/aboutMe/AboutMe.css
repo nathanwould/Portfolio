@@ -1,5 +1,11 @@
-#about-me {
+.about-me {
   margin: 10vh;
+}
+
+#my-face {
+  width: 30vh;
+  border-radius: 80%;
+  margin-bottom: 10vh;
 }
 
 .paragraph {

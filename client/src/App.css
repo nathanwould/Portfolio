@@ -10,6 +10,7 @@
 .site-layout-content {
   display: flex;
   justify-content: center;
+  background: linear-gradient(white, #001529)
 }
 
 .menu {
@@ -30,3 +31,9 @@
   flex-direction: column;
   align-items: center;
 }
+
+.footer-copyright {
+  padding-top: 16px;
+}
+
+/* @media */

@@ -15,7 +15,9 @@ export default function Contact() {
       className='form'
       id='contact'
     >
+      <h1>Contact Me</h1>
       <Form.Item
+        className='label'
         name='name'
         label='Name'
         // value={name}
@@ -24,6 +26,7 @@ export default function Contact() {
         <Input />
       </Form.Item>
       <Form.Item
+        className='label'
         name='email'
         label='Email'
         // value={email}
@@ -32,6 +35,7 @@ export default function Contact() {
         <Input />
       </Form.Item>
       <Form.Item
+        className='label'
         name='message'
         label='Message'
         // value={message}

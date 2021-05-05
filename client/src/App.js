@@ -1,7 +1,8 @@
 import './App.css';
 import { useState } from 'react';
-import { Layout, Menu } from 'antd';
+import { Layout, Menu, Button } from 'antd';
 import 'antd/dist/antd.css';
+import { GithubOutlined, SolutionOutlined, LinkedinOutlined } from '@ant-design/icons';
 import Projects from './components/projects/Projects.jsx';
 import AboutMe from './components/aboutMe/AboutMe.jsx';
 import Contact from './components/contact/Contact.jsx';
@@ -50,7 +51,30 @@ function App() {
           <Projects id='projects'/>
           <Contact id='contact'/>
         </Content>
-        <Footer>Nathan Wood ©2021</Footer>
+        <Footer>
+          <Button
+            className='footer-link'
+            type='text'
+            href='https://drive.google.com/file/d/1-VGk3PUd42v7HOMTnrlYY1rwjwlHTlrh/view?usp=sharing'
+            icon={<SolutionOutlined />}
+          >CV
+          </Button>
+          <Button
+            className='footer-link'
+            type='text'
+            href='https://github.com/nathanwould'
+            icon={<GithubOutlined />}
+            >GitHub
+          </Button>
+          <Button
+            className='footer-link'
+            type='text'
+            href='https://www.linkedin.com/in/nathan-wood-dev/'
+            icon={<LinkedinOutlined />}
+          >LinkedIn
+          </Button>
+          <h4 className='footer-copyright'>Nathan Wood ©2021</h4>
+          </Footer>
       </Layout>
     </div>
   );

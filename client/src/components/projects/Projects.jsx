@@ -7,8 +7,8 @@ export default function Projects() {
   return (
     <Space id='projects' className="projects-container" direction="vertical">
       <div className="project-card">
-        <h1>PokeSynth</h1>
         <Card
+          title='PokeSynth'
           className="project-container"
           id="pokesynth"
           cover={<img alt='PokeSynth' src='https://i.imgur.com/LGHB23Ol.png' />}
@@ -19,8 +19,8 @@ export default function Projects() {
         </Card>
       </div>
       <div className="project-card">
-        <h1>Fermently</h1>
         <Card
+          title='Fermently'
           className="project-container"
           id="fermently"
           cover={<img alt='Fermently' src='https://i.imgur.com/mBw9a8Tl.png'/>}
@@ -31,8 +31,8 @@ export default function Projects() {
         </Card>
       </div>
       <div className="project-card">
-        <h1>BlockBustler</h1>
         <Card
+          title='BlockBustler'
           className="project-container"
           id="blockbustler"
           cover={<img alt='BlockBustler' src='https://i.imgur.com/FfmS9ntl.png' />}

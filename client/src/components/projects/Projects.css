@@ -29,6 +29,7 @@ p {
   margin-top: 10vh;
 }
 
-#blockbustler-title {
-  color: white;
+.ant-card-head-title {
+  font-size: 2rem;
+  font-weight: bold;
 }

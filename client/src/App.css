@@ -36,4 +36,25 @@
   padding-top: 16px;
 }
 
-/* @media */
+@media only screen and (max-width: 600px) {
+  .menu {
+    align-items: flex-start;
+  }
+  #logo {
+    font-size: 1.5rem;
+    padding-right: 10vh;
+  }
+  .ant-layout-header {
+    padding: 0;
+  }
+  #header {
+    padding: 0px;
+  }
+  #about-me {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .ant-menu-submenu {
+    padding-left: 300px;
+  }
+}

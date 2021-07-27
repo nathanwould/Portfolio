@@ -21,7 +21,7 @@ function App() {
   return (
     <div className="App">
       <Layout className='layout'>
-        <Header className='header'>
+        <Header className='header' id='header'>
           <Menu
             className='menu'
             theme='dark'
@@ -30,7 +30,7 @@ function App() {
             >
             <Menu.Item
               key='home'
-              className='logo'
+              id='logo'
             ><a href='/'>Nathan Wood</a></Menu.Item>
             <Menu.Item
               key='about'

@@ -1,11 +1,11 @@
 import './App.css';
 import { useState } from 'react';
-import { Layout, Menu, Button } from 'antd';
+import { Layout, Menu, BackTop } from 'antd';
 import 'antd/dist/antd.css';
 import { GithubOutlined, SolutionOutlined, LinkedinOutlined } from '@ant-design/icons';
 import Projects from './components/projects/Projects.jsx';
 import AboutMe from './components/aboutMe/AboutMe.jsx';
-import Contact from './components/contact/Contact.jsx';
+// import Contact from './components/contact/Contact.jsx';
 
 function App() {
   const { Header, Content, Footer } = Layout;
@@ -21,7 +21,15 @@ function App() {
   return (
     <div className="App">
       <Layout className='layout'>
-        <Header className='header' id='header'>
+        <Header
+          className='header'
+          id='header'
+          style={{
+            position: "fixed",
+            width: "100%",
+            zIndex: "2"
+          }}
+        >
           <Menu
             className='menu'
             theme='dark'
@@ -40,40 +48,43 @@ function App() {
               key='projects'
               className='nav-link'
             ><a href='#projects'>Projects</a></Menu.Item>
-            <Menu.Item
+            {/* <Menu.Item
               key='contact'
               className='nav-link'
-            ><a href='#contact'>Contact</a></Menu.Item>
+            ><a href='#contact'>Contact</a></Menu.Item> */}
           </Menu>
         </Header>
-        <Content className='site-layout-content'>
+        <Content
+          className='site-layout-content'
+          // style={{
+          //   width: "100%",
+          // }}
+        >
           <AboutMe id='about-me'/>
           <Projects id='projects'/>
-          <Contact id='contact'/>
+          {/* <Contact id='contact'/> */}
         </Content>
         <Footer>
-          <Button
+          <a
             className='footer-link'
             type='text'
             href='https://drive.google.com/file/d/1-VGk3PUd42v7HOMTnrlYY1rwjwlHTlrh/view?usp=sharing'
-            icon={<SolutionOutlined />}
-          >CV
-          </Button>
-          <Button
+          ><SolutionOutlined /> CV
+          </a>
+          <a
             className='footer-link'
             type='text'
             href='https://github.com/nathanwould'
-            icon={<GithubOutlined />}
-            >GitHub
-          </Button>
-          <Button
+            ><GithubOutlined /> GitHub
+          </a>
+          <a
             className='footer-link'
             type='text'
             href='https://www.linkedin.com/in/nathan-wood-dev/'
-            icon={<LinkedinOutlined />}
-          >LinkedIn
-          </Button>
+          ><LinkedinOutlined /> LinkedIn
+          </a>
           <h4 className='footer-copyright'>Nathan Wood ©2021</h4>
+          <BackTop />
           </Footer>
       </Layout>
     </div>

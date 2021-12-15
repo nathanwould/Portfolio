@@ -1,28 +1,26 @@
-.about-me {
-  margin: 10vh;
+#my-face {
+  width: 100%;
+  border-radius: 80%;
+  margin-bottom: 2vh;
 }
 
-#my-face {
-  width: 30vh;
-  border-radius: 80%;
-  margin-bottom: 10vh;
+.about-me-links a {
+  color: black;
+  font-size: 1rem;
 }
 
 .paragraph {
-  margin: 5vh;
-  font-size: 14px;
+  font-size: 1rem;
   font-family: "Vulf-sans"
 }
 
 .ant-typography h1 {
-  font-size: 36px;
   font-weight: bold;
-  margin-bottom: 10vh;
   font-family: 'Vulf-Mono'
 }
 
-.anticon {
-  margin-top: 4vh;
+.about-me-links .anticon {
+  margin-top: 1rem;
 }
 
 .fonk {

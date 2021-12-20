@@ -39,7 +39,7 @@ export default function AboutMe() {
             size="small"
           >
           <Link
-              href="https://docs.google.com/document/d/1tRxhu5ygfFUcMt_biTK2X4gZhBebqnhXNfgqLpKnww0/edit#">
+              href="https://drive.google.com/file/d/1-VGk3PUd42v7HOMTnrlYY1rwjwlHTlrh/view?usp=sharing">
               <SolutionOutlined /> CV
           </Link>
           <Link

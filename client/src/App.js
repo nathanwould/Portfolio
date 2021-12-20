@@ -62,7 +62,6 @@ function App() {
         >
           <AboutMe id='about-me'/>
           <Projects id='projects'/>
-          {/* <Contact id='contact'/> */}
         </Content>
         <Footer>
           <a

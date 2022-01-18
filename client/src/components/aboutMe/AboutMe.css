@@ -34,4 +34,10 @@
   .about-me {
     flex-flow: column wrap;
   }
+  .ant-col {
+    max-width: 100%;
+  }
+  .ant-typography h2 {
+    font-size: 1.2rem;
+  }
 }

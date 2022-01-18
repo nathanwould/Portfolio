@@ -8,6 +8,18 @@ export default function Projects() {
     <Space id='projects' className="projects-container" direction="vertical">
       <div className="project-card">
         <Card
+          title='Brass Mart'
+          className="project-container"
+          id="brass-mart"
+          cover={<img alt='Brass Mart' src='https://i.imgur.com/5VJdWGul.png' />}
+        >
+          <p>Full-stack webstore featuring a Keystone 6 GraphQL database with Admin UI and React/Next front-end using and Stripe to process credit card transactions.</p>
+          <Link href='https://nathanwould.github.io/Funkemon/' target="_blank">Visit App</Link>
+          <Link href='https://github.com/nathanwould/Funkemon' target="_blank">View on GitHub</Link>
+        </Card>
+      </div>
+      <div className="project-card">
+        <Card
           title='PokeSynth'
           className="project-container"
           id="pokesynth"
@@ -28,18 +40,6 @@ export default function Projects() {
           <p>Front-end fermentation project tracking React application using Airtable API integration.</p>
           <Link href='https://fermently.netlify.app/' target="_blank">Visit App</Link>
           <Link href='https://github.com/nathanwould/Fermently' target="_blank">View on GitHub</Link>
-        </Card>
-      </div>
-      <div className="project-card">
-        <Card
-          title='BlockBustler'
-          className="project-container"
-          id="blockbustler"
-          cover={<img alt='BlockBustler' src='https://i.imgur.com/FfmS9ntl.png' />}
-        >
-          <p>Re-imaged POS system for the one remaining BlockBuster location to help them move away from their old DOS system and age gracefully into the 21st century. A full-stack application built on Ruby on Rails and React frameworks.</p>
-          <Link href='https://pensive-mclean-a6bb9d.netlify.app/' target="_blank">Visit App</Link>
-          <Link href='https://github.com/nathanwould/BlockBustler' target="_blank">View on GitHub</Link>
         </Card>
       </div>
     </Space>

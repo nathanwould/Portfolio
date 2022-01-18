@@ -5,7 +5,7 @@ import 'antd/dist/antd.css';
 import { GithubOutlined, SolutionOutlined, LinkedinOutlined } from '@ant-design/icons';
 import Projects from './components/projects/Projects.jsx';
 import AboutMe from './components/aboutMe/AboutMe.jsx';
-// import Contact from './components/contact/Contact.jsx';
+import { Link } from 'react-scroll';
 
 function App() {
   const { Header, Content, Footer } = Layout;
@@ -39,19 +39,41 @@ function App() {
             <Menu.Item
               key='home'
               id='logo'
-            ><a href='/'>Nathan Wood</a></Menu.Item>
+            >
+              <Link
+                to='home'
+                spy={true}
+                smooth={true}
+                duration={500}
+              >Nathan Wood
+              </Link>
+            </Menu.Item>
             <Menu.Item
               key='about'
               className='nav-link'
-            ><a href='#about-me'>About Me</a></Menu.Item>
+            >
+              <Link
+                to='about-me'
+                spy={true}
+                smooth={true}
+                duration={500}
+              >
+                About Me
+              </Link>
+            </Menu.Item>
             <Menu.Item
               key='projects'
               className='nav-link'
-            ><a href='#projects'>Projects</a></Menu.Item>
-            {/* <Menu.Item
-              key='contact'
-              className='nav-link'
-            ><a href='#contact'>Contact</a></Menu.Item> */}
+            >
+              <Link
+                to='projects'
+                spy={true}
+                smooth={true}
+                duration={500}
+              >
+                Projects
+              </Link>
+            </Menu.Item>
           </Menu>
         </Header>
         <Content

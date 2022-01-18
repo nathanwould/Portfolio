@@ -7,7 +7,7 @@ export default function AboutMe() {
   return (
     <Row className='about-me'>
       <Col span={16}>
-      <Typography id='about-me'>
+      <Typography>
         <Space direction="vertical">
           <Title>Hi! I'm Nathan.</Title>
           <Title level={2} className="spiel">I'm a trombonist turned full-stack web developer whose goal is to take my unique experience working in the arts, food industry, and as a nonprofit administrator to solve real-world problems for users with code. </Title>
@@ -22,6 +22,7 @@ export default function AboutMe() {
       </Col>
       <Col span={8}>
         <Space
+          id='more-info'
           direction="vertical"
           style={{
             marginLeft: "4rem"

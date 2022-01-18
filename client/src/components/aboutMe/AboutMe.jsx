@@ -8,7 +8,7 @@ export default function AboutMe() {
     <Row className='about-me'>
       <Col span={16}>
       <Typography>
-        <Space direction="vertical">
+        <Space direction="vertical" className='about-me-text'>
           <Title>Hi! I'm Nathan.</Title>
           <Title level={2} className="spiel">I'm a trombonist turned full-stack web developer whose goal is to take my unique experience working in the arts, food industry, and as a nonprofit administrator to solve real-world problems for users with code. </Title>
           <Paragraph className='paragraph'>Whether building a full-stack application, performing on stage, or trying to make capers out of quince blossoms, I always bring my curiosity, creativity and perspective to every project to foster an open, collaborative environment. </Paragraph>

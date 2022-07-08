@@ -5,9 +5,7 @@
 .site-layout-content {
   display: flex;
   justify-content: center;
-  /* background: linear-gradient(white, #001529); */
-  margin: 4rem;
-  margin-top: 7rem;
+  margin: 0 4rem 4rem;
 }
 
 .menu {

@@ -22,7 +22,7 @@ p {
 
 .project-container a {
   font-weight: bold;
-  padding: 4px;
+  padding: 0 4px;
 }
 
 .ant-card-head-title {

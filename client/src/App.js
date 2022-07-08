@@ -3,8 +3,9 @@ import { useState } from 'react';
 import { Layout, Menu, BackTop } from 'antd';
 import 'antd/dist/antd.css';
 import { GithubOutlined, SolutionOutlined, LinkedinOutlined } from '@ant-design/icons';
-import Projects from './components/projects/Projects.jsx';
 import AboutMe from './components/aboutMe/AboutMe.jsx';
+import Projects from './components/projects/Projects.jsx';
+import CodeWars from './components/codewars/CodeWars';
 import { Link } from 'react-scroll';
 
 function App() {
@@ -27,14 +28,15 @@ function App() {
           style={{
             position: "fixed",
             width: "100%",
-            zIndex: "2"
+            zIndex: "1",
           }}
         >
           <Menu
             className='menu'
             theme='dark'
             mode='horizontal'
-            onClick={handleClick} selectedKeys={[current]}
+            onClick={handleClick}
+            selectedKeys={[current]}
             >
             <Menu.Item
               key='home'
@@ -74,6 +76,19 @@ function App() {
                 Projects
               </Link>
             </Menu.Item>
+            <Menu.Item
+              key='codewars'
+              className='nav-link'
+            >
+              <Link
+                to='codewars'
+                spy={true}
+                smooth={true}
+                duration={500}
+              >
+                CodeWars
+              </Link>
+            </Menu.Item>
           </Menu>
         </Header>
         <Content
@@ -82,8 +97,9 @@ function App() {
           //   width: "100%",
           // }}
         >
-          <AboutMe id='about-me'/>
-          <Projects id='projects'/>
+          <AboutMe />
+          <Projects />
+          <CodeWars />
         </Content>
         <Footer>
           <a

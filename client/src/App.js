@@ -105,7 +105,7 @@ function App() {
           <a
             className='footer-link'
             type='text'
-            href='https://drive.google.com/file/d/1-VGk3PUd42v7HOMTnrlYY1rwjwlHTlrh/view?usp=sharing'
+            href='https://docs.google.com/document/d/1AiRJgoBLqOfWqg_gfZkf_BiGfkv7dwVcWYsyIEiLR5o/edit?usp=sharing'
           ><SolutionOutlined /> CV
           </a>
           <a

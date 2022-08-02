@@ -42,7 +42,7 @@ export default function AboutMe() {
               size="small"
             >
             <Link
-                href="https://drive.google.com/file/d/1-VGk3PUd42v7HOMTnrlYY1rwjwlHTlrh/view?usp=sharing">
+                href="https://docs.google.com/document/d/1AiRJgoBLqOfWqg_gfZkf_BiGfkv7dwVcWYsyIEiLR5o/edit?usp=sharing">
                 <SolutionOutlined /> CV
             </Link>
             <Link

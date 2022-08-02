@@ -91,12 +91,7 @@ function App() {
             </Menu.Item>
           </Menu>
         </Header>
-        <Content
-          className='site-layout-content'
-          // style={{
-          //   width: "100%",
-          // }}
-        >
+        <Content className='site-layout-content'>
           <AboutMe />
           <Projects />
           <CodeWars />

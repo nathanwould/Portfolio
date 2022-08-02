@@ -5,7 +5,7 @@ import './AboutMe.css';
 export default function AboutMe() {
   const { Title, Paragraph, Link } = Typography;
   return (
-    <Space direction="vertical" id="about-me">
+    <Space direction="vertical" id="about-me" style={{marginBottom: '5rem'}}>
       <div style={{marginBottom: '5rem'}}></div>
       <Row className='about-me'>
         <Col span={16}>

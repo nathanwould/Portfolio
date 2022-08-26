@@ -6,6 +6,11 @@ p {
   font-family: 'Vulf-sans', sans-serif;
 }
 
+.projects-container {
+  display: flex;
+  align-items: center;
+}
+
 .project-card {
   margin-top: 10vh;
   max-width: 80vh;

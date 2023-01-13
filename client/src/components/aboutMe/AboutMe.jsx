@@ -41,13 +41,13 @@ export default function AboutMe() {
               direction="vertical"
               size="small"
             >
-            <Link href="https://drive.google.com/file/d/1U52trwO-KmX7DaAy_06knd4d4rLDna9e/view?usp=sharing">
+            <Link href="https://drive.google.com/file/d/1U52trwO-KmX7DaAy_06knd4d4rLDna9e/view?usp=sharing" target="_blank">
                 <SolutionOutlined /> CV
             </Link>
-            <Link href="https://github.com/nathanwould">
+            <Link href="https://github.com/nathanwould" target="_blank">
                 <GithubOutlined /> GitHub
               </Link>
-            <Link href="https://www.linkedin.com/in/nathan-wood-dev/">
+            <Link href="https://www.linkedin.com/in/nathan-wood-dev/" target="_blank">
               <LinkedinOutlined /> LinkedIn
               </Link>
             </Space>

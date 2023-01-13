@@ -41,7 +41,7 @@ export default function AboutMe() {
               direction="vertical"
               size="small"
             >
-            <Link href="https://drive.google.com/file/d/1U52trwO-KmX7DaAy_06knd4d4rLDna9e/view?usp=sharing">
+            <Link href="https://drive.google.com/file/d/1U52trwO-KmX7DaAy_06knd4d4rLDna9e/view">
                 <SolutionOutlined /> CV
             </Link>
             <Link href="https://github.com/nathanwould">

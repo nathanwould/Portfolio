@@ -17,8 +17,8 @@ export default function Projects() {
             cover={<img alt='Brass Mart' src='https://i.imgur.com/5VJdWGul.png' />}
           >
             <p>Full-stack webstore featuring a Keystone 6 GraphQL database with Admin UI and React/Next front-end using and Stripe to process credit card transactions.</p>
-            <Link href='https://brass-mart.netlify.app/' target="_blank">Visit App</Link>
-            <Link href='https://github.com/nathanwould/Brass-Mart' target="_blank">View on GitHub</Link>
+            <Link href='https://main.d2oyt77ho14qrt.amplifyapp.com/' target="_blank">Visit App</Link>
+            <Link href='https://github.com/nathanwould/Brass-Mart-2' target="_blank">View on GitHub</Link>
           </Card>
         </div>
         <div className="project-card">

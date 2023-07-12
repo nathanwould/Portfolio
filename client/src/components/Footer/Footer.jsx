@@ -21,7 +21,9 @@ export default function Footer() {
         rel="noreferrer"
         target="_blank"
         href='https://github.com/nathanwould'
-        ><GithubOutlined /> GitHub
+      >
+        <GithubOutlined />
+        GitHub
       </a>
       <a
         className="footer-link"
@@ -29,7 +31,9 @@ export default function Footer() {
         rel="noreferrer"
         target="_blank"
         href='https://www.linkedin.com/in/nathan-wood-dev/'
-      ><LinkedinOutlined /> LinkedIn
+      >
+        <LinkedinOutlined />
+        LinkedIn
       </a>
       <h4 className='footer-copyright'>Nathan Wood ©2021</h4>
       <BackTop />

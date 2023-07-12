@@ -6,7 +6,6 @@ export default function Projects() {
 
   return (
     <Space direction="vertical" id='projects'>
-      {/* <div style={{marginBottom: '5rem'}}></div> */}
       <Title level={3} style={{marginBottom: '-2rem'}}>Check out a few things I've been working on:</Title>
       <Space className="projects-container" direction="vertical">
         <div className="project-card">
@@ -14,7 +13,7 @@ export default function Projects() {
             title='Brass Mart'
             className="project-container"
             id="brass-mart"
-            cover={<img alt='Brass Mart' src='https://i.imgur.com/5VJdWGul.png' />}
+            cover={<img className="project-image" alt='Brass Mart' src='https://i.imgur.com/5VJdWGul.png' />}
           >
             <p>Full-stack webstore featuring a Keystone 6 GraphQL database with Admin UI and React/Next front-end using and Stripe to process credit card transactions.</p>
             <Link href='https://main.d2oyt77ho14qrt.amplifyapp.com/' target="_blank">Visit App</Link>
@@ -26,7 +25,7 @@ export default function Projects() {
             title='PokeSynth'
             className="project-container"
             id="pokesynth"
-            cover={<img alt='PokeSynth' src='https://i.imgur.com/LGHB23Ol.png' />}
+            cover={<img className="project-image" alt='PokeSynth' src='https://i.imgur.com/LGHB23Ol.png' />}
           >
             <p>A digital synthesizer built in vanilla javascript. Choose a pokemon to dance along while you play!</p>
             <Link href='https://nathanwould.github.io/Funkemon/' target="_blank">Visit App</Link>
@@ -38,7 +37,7 @@ export default function Projects() {
             title='Fermently'
             className="project-container"
             id="fermently"
-            cover={<img alt='Fermently' src='https://i.imgur.com/mBw9a8Tl.png'/>}
+            cover={<img className="project-image" alt='Fermently' src='https://i.imgur.com/mBw9a8Tl.png'/>}
           >
             <p>Front-end fermentation project tracking React application using Airtable API integration.</p>
             <Link href='https://fermently.netlify.app/' target="_blank">Visit App</Link>

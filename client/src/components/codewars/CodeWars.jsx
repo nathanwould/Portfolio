@@ -7,13 +7,11 @@ export default function CodeWars() {
       id="codewars"
       direction="vertical"
       style={{
-        marginTop: "6rem",
         display: "flex",
         alignItems: "center"
       }}
     >
-      <div style={{marginBottom: '5rem'}}></div>
-      <Title level={2}>Or get a feel for my problem-solving process:</Title>
+      <Title level={3}>Or get a feel for my problem-solving process:</Title>
       <Card
         title='Codewars'
         className="codewars-card"

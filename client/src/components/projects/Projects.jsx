@@ -6,8 +6,8 @@ export default function Projects() {
 
   return (
     <Space direction="vertical" id='projects'>
-      <div style={{marginBottom: '5rem'}}></div>
-      <Title level={2} style={{marginBottom: '-2rem'}}>Check out a few things I've been working on:</Title>
+      {/* <div style={{marginBottom: '5rem'}}></div> */}
+      <Title level={3} style={{marginBottom: '-2rem'}}>Check out a few things I've been working on:</Title>
       <Space className="projects-container" direction="vertical">
         <div className="project-card">
           <Card

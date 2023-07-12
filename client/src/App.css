@@ -1,11 +1,7 @@
 .layout {
   font-family: 'Vulf-mono', sans-serif;
-}
-
-.site-layout-content {
-  display: flex;
-  justify-content: center;
-  margin: 0 4rem 4rem;
+  display: 'flex';
+  justify-content: space-between;
 }
 
 .menu {
@@ -23,7 +19,10 @@
 }
 
 .site-layout-content {
+  margin: 6rem 4rem 4rem;
+  display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
 }
 

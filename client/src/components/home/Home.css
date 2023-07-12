@@ -1,0 +1,43 @@
+#my-face {
+  width: 100%;
+  border-radius: 80%;
+  margin-bottom: 2vh;
+}
+
+.about-me-links a {
+  color: black;
+  font-size: 1rem;
+}
+
+.paragraph {
+  font-size: 1rem;
+  font-family: "Vulf-sans"
+}
+
+.ant-typography h1 {
+  font-weight: bold;
+  font-family: 'Vulf-Mono'
+}
+
+.about-me-links .anticon {
+  margin-top: 1rem;
+}
+
+.fonk {
+  margin-left: 0;
+}
+
+@media only screen and (max-width: 600px) {
+  #more-info {
+    display: none;
+  }
+  .about-me {
+    flex-flow: column wrap;
+  }
+  .ant-col {
+    max-width: 100%;
+  }
+  .ant-typography h2 {
+    font-size: 1.2rem;
+  }
+}

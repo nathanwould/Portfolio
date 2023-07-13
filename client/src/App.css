@@ -28,7 +28,7 @@
 
 .footer-link {
   margin-right: 2vh;
-  color: black;
+  color: black !important;
 }
 
 .footer-copyright {

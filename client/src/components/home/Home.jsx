@@ -13,7 +13,7 @@ export default function AboutMe() {
             
             <Title>Hi! I'm Nathan.</Title>
             
-            <Title level={2} className="spiel">
+            <Title level={3} className="spiel">
               I'm a trombonist turned full-stack developer and I've taken my unique experience working in the arts, food, nonprofit, and medical industries to solve real-world problems for users and businesses with code.
             </Title>
 
@@ -22,10 +22,11 @@ export default function AboutMe() {
             </Paragraph>
 
             <Paragraph className='paragraph'>
-              If I'm at my computer coding, you can find me planting seed starts in my garden, playing music with friends, or listening to
+              If I'm at my computer coding, you can find me planting seed starts in my garden, playing music with friends, or listening to<span> </span>
               <Link
                 className='fonk'
-                href='https://open.spotify.com/track/0ivhQEsgDPmAkLKlwWcR9l?si=1izCVg2_RcO7BmwLc-IDkg'
+                target='_blank'
+                href='https://open.spotify.com/track/56nRvG4Te0dtmgxnhJBVm7?si=3b21f2406d9240c4'
               >funky, funky music.</Link>
             </Paragraph>
           </Space>

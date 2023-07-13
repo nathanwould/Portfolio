@@ -5,14 +5,13 @@ import './AboutMe.css';
 export default function AboutMe() {
   const { Title, Paragraph, Link } = Typography;
   return (
-    <Space direction="vertical" id="about-me" style={{marginBottom: '5rem'}}>
-      <div style={{marginBottom: '5rem'}}></div>
+    <Space direction="vertical" id="about-me">
       <Row className='about-me'>
         <Col span={16}>
         <Typography>
           <Space direction="vertical" className='about-me-text'>
-            <Title>Hi! I'm Nathan.</Title>
-            <Title level={2} className="spiel">I'm a trombonist turned full-stack web developer whose goal is to take my unique experience working in the arts, food industry, and as a nonprofit administrator to solve real-world problems for users with code. </Title>
+            <Title style={{marginBottom: '.5rem'}}>Nathan Wood</Title>
+            <Title level={3} className="spiel">Full-stack developer</Title>
             <Paragraph className='paragraph'>Whether building a full-stack application, performing on stage, or trying to make capers out of quince blossoms, I always bring my curiosity, creativity and perspective to every project to foster an open, collaborative environment. </Paragraph>
             <Paragraph className='paragraph'>If I'm not behind my computer coding, you can find me planting seed starts in my garden, reading about fermentation or listening to <Link
                 className='fonk'

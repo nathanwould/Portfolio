@@ -36,7 +36,8 @@ body {
 
 .footer {
   position: absolute;
-  margin-top: auto;
+  margin: auto;
+  padding: 2rem 2rem 1rem !important;
   bottom: 0;
   width: 100%;
 }
@@ -72,7 +73,7 @@ body {
     margin-right: 0;
   }
   .ant-menu-submenu {
-    margin-top: -1rem;
+    margin-top: -rem;
     padding-left: 14.5rem;
   }
 }

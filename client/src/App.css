@@ -1,6 +1,17 @@
-.layout {
+html, #root, .App {
+  height: 100%;
+}
+
+body {
+  min-height: 100%;
+  display: flex;
+}
+
+.ant-layout {
   font-family: 'Vulf-mono', sans-serif;
-  display: 'flex';
+  position: relative;
+  min-height: 100% !important;
+  display: flex;
   justify-content: space-between;
 }
 
@@ -20,10 +31,14 @@
 
 .site-layout-content {
   margin: 6rem 4rem 4rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  padding-bottom: 6rem;
+}
+
+.footer {
+  position: absolute;
+  margin-top: auto;
+  bottom: 0;
+  width: 100%;
 }
 
 .footer-link {

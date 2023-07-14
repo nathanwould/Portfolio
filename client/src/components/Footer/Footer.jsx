@@ -5,7 +5,7 @@ export default function Footer() {
   const { Footer } = Layout;
   const { Link } = Typography;
   return (
-    <Footer>
+    <Footer className="footer">
       <Link
         className="footer-link"
         href="https://drive.google.com/file/d/1U52trwO-KmX7DaAy_06knd4d4rLDna9e/view?usp=sharing"

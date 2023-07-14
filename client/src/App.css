@@ -72,6 +72,7 @@ body {
     margin-right: 0;
   }
   .ant-menu-submenu {
-    padding-left: 300px;
+    margin-top: -1rem;
+    padding-left: 14.5rem;
   }
 }

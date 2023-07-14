@@ -22,7 +22,7 @@ export default function AboutMe() {
             </Paragraph>
 
             <Paragraph className='paragraph'>
-              If I'm at my computer coding, you can find me planting seed starts in my garden, playing music with friends, or listening to<span> </span>
+              If I'm not at my computer coding, you can find me planting seed starts in my garden, playing music with friends, or listening to<span> </span>
               <Link
                 className='fonk'
                 target='_blank'

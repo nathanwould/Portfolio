@@ -11,12 +11,9 @@ export default function AboutMe() {
         <Typography>
           <Space direction="vertical" className='about-me-text'>
             <Title style={{marginBottom: '.5rem'}}>Nathan Wood</Title>
-            <Title level={3} className="spiel">Full-stack developer</Title>
-            <Paragraph className='paragraph'>Whether building a full-stack application, performing on stage, or trying to make capers out of quince blossoms, I always bring my curiosity, creativity and perspective to every project to foster an open, collaborative environment. </Paragraph>
-            <Paragraph className='paragraph'>If I'm not behind my computer coding, you can find me planting seed starts in my garden, reading about fermentation or listening to <Link
-                className='fonk'
-                href='https://open.spotify.com/track/0ivhQEsgDPmAkLKlwWcR9l?si=1izCVg2_RcO7BmwLc-IDkg'
-                >funky, funky music.</Link>
+            <Title level={3} className="spiel">Full-stack Engineer</Title>
+            <Paragraph className='paragraph'>Experienced software engineer specializing in React ecosystem frameworks, Typescript, software design patterns, Headless CMS, and integrating Application Programming Interfaces. </Paragraph>
+            <Paragraph className='paragraph'>Strong engineering professional with a full-stack engineering certificate from accelerated education program at General Assembly.
             </Paragraph>
           </Space>
         </Typography>
